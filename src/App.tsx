@@ -3,6 +3,7 @@ import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
 import { IColaborador } from './Compartilhado/interfaces/IColaborador';
+import Rodape from './componentes/Rodape';
 
 function App() {
 
@@ -74,6 +75,7 @@ function App() {
           )}
         />
       ))}
+      <Rodape />
     </div>
   );
 }
